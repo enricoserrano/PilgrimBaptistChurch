@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Pilgrim Baptist Church Schedule</title>
+      <link rel="stylesheet" href="style.css" />
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+   </head>
+   <body>
+      <div class="container">
+         <p>
+            <b>Schedule of Services</b>
+         </p>
+         <p>
+            We preserve the Baptist Landmark set forth by our forefathers in the faith.
+         </p>
+         <p>
+            Proverbs 22:28<br>
+            <i>"Remove not the ancient landmark, which thy fathers have set."</i>
+         </p>
+         <p>
+            The times of our services are as follows:<br>
+         </p>
+         <p>
+            Sunday School - 10:30 a.m.<br>
+            Sunday Morning Service - 11:15 a.m<br>
+            Friday Bible Studies - 7:00 pm<br>
+            Wednesday Evening Prayer Meeting  - 6:30 pm				
+         </p>
+         <p>
+            <b>Visitation, Soul Winning and Tracts Giving</b><br>
+            <b>Youth and Adult every Saturdays</b><br>
+         </p>
+         <div class="lineaddress">
+            <img src="linelayoutblack.png" alt="designline" width="100%">
+         </div>
+      </div>
+      <header>
+         <div id="mySidebar" class="sidebar">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><span class="material-icons">west</span></a>
+            <a href="index.html"><span class="material-icons">home</span>Home</a>
+            <a href="covenant.html"><span class="material-icons">book</span>Church Covenant</a>
+            <a href="bible.html"><span class="material-icons">menu_book</span>What the bible says</a>
+            <a href="address.html"><span class="material-icons">location_on</span>Address</a>
+            <a href="newsnarticles.html"><span class="material-icons">article</span>News and Articles</a>
+			<div class="disabled">
+            <a href="schedule.html"><span class="material-icons">calendar_today</span>Schedule of Services</a>
+			</div>
+            <a href="officers.html"><span class="material-icons">groups</span>Church Officers</a>
+            <a href="saved.html"><span class="material-icons">add</span>Do you want to be saved?</a>
+            <a href="donation.html"><span class="material-icons">attach_money</span>Donations</a>
+            <a href="https://www.facebook.com/groups/250482835327220" target="_blank"><span class="material-icons">facebook</span>Facebook</a>
+         </div>
+         <div id="main">
+            <button class="openbtn" onclick="openNav()">☰</button>  
+         </div>
+         <div class="logoclass">
+            <img src="logo.png" alt="PBC">
+         </div>
+      </header>
+      <script>
+         function openNav() {
+           document.getElementById("mySidebar").style.width = "300px";
+           document.getElementById("main").style.marginLeft = "300px";
+         }
+         
+         function closeNav() {
+           document.getElementById("mySidebar").style.width = "0";
+           document.getElementById("main").style.marginLeft= "0";
+         }
+      </script>
+   </body>
+</html>
